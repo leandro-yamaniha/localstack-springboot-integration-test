@@ -1,0 +1,14 @@
+cloud:
+  aws:
+    region:
+      static: eu-central-1
+    stack:
+      auto: false
+      enabled: false
+    credentials:
+      secretKey: ABC
+      accessKey: XYZ
+
+event-processing:
+  order-event-queue: order-event-queue
+  order-event-bucket: order-event-bucket
